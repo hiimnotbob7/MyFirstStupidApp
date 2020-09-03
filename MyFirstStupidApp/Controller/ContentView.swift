@@ -8,9 +8,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
+struct ContentView: View
+{
+    var body: some View
+    {
+        Text("🏰🎢😘🤩 Heres some randome emojis for your enjoyment")
+            .font(.largeTitle)
+            .fontWeight(.black)
+            .foregroundColor(Color.blue)
+            .multilineTextAlignment(.center)
+            .padding()
             
     }
 }
