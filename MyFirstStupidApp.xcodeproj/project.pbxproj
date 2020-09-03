@@ -56,12 +56,9 @@
 		A76C1EFD250169C40054E27E /* MyFirstStupidApp */ = {
 			isa = PBXGroup;
 			children = (
-				A76C1EFE250169C40054E27E /* AppDelegate.swift */,
-				A76C1F00250169C40054E27E /* SceneDelegate.swift */,
-				A76C1F02250169C40054E27E /* ContentView.swift */,
-				A76C1F04250169C50054E27E /* Assets.xcassets */,
-				A76C1F09250169C50054E27E /* LaunchScreen.storyboard */,
-				A76C1F0C250169C50054E27E /* Info.plist */,
+				A76C1F1225016EA60054E27E /* Resources */,
+				A76C1F14250172810054E27E /* Controller */,
+				A76C1F13250172770054E27E /* View */,
 				A76C1F06250169C50054E27E /* Preview Content */,
 			);
 			path = MyFirstStupidApp;
@@ -73,6 +70,33 @@
 				A76C1F07250169C50054E27E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A76C1F1225016EA60054E27E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A76C1EFE250169C40054E27E /* AppDelegate.swift */,
+				A76C1F00250169C40054E27E /* SceneDelegate.swift */,
+				A76C1F04250169C50054E27E /* Assets.xcassets */,
+				A76C1F0C250169C50054E27E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A76C1F13250172770054E27E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A76C1F09250169C50054E27E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A76C1F14250172810054E27E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A76C1F02250169C40054E27E /* ContentView.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +311,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyFirstStupidApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyFirstStupidApp/Info.plist;
+				INFOPLIST_FILE = MyFirstStupidApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +331,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyFirstStupidApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyFirstStupidApp/Info.plist;
+				INFOPLIST_FILE = MyFirstStupidApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
